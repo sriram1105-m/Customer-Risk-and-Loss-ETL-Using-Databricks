@@ -6,6 +6,7 @@
 <h1>🧾 Customer Risk and Loss ETL Platform </h1>
 
 <h1> Executive Summary </h1>
+
 This project documents the delivery  of an enterprise data engineering solution developed for a client operating in a regulated, data-intensive environment. The objective was to design and implement a reliable and auditable ETL platform that transforms raw customer loss data into trusted datasets for risk analysis, regulatory reporting, and downstream analytical use cases.
 
 I was responsible for the end-to-end design and implementation of the pipeline using Databricks, Spark SQL, and Delta Lake. The solution processes customer-level loss data at scale, applies multi-stage data quality validation, and delivers governed datasets aligned with business and regulatory requirements.
@@ -13,6 +14,7 @@ I was responsible for the end-to-end design and implementation of the pipeline u
 The platform follows a Medallion architecture to ensure clear separation of concerns, strong data governance, and long-term scalability. The final Gold layer supports financial risk dashbaords, loss trend analysis, and provides a stable foundation for future predictive modelling initiatives.
 
 <h1> Business Context </h1>
+
 The client relies on customer-level data to monitor financial loss, assess exposure to risk, and support both operational and strategic decision-making. Source data is ingested from upstream transactional and operational systems with varying levels of data quality. 
 
 Prior to this engagement, reporting teams experienced recurring issues with inconsistent metrics, delayed reporting cycles, and limited visibility into data quality failures. Manual reconciliation was required to validate figures before reports coule be trusted, increasing operational overhead and slowing decision-making.
